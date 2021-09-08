@@ -1,0 +1,235 @@
+@media only screen and (min-device-width:900px) {
+    body {
+        margin-left: 20%;
+        margin-top: 10%;
+        display: flex;
+        background-color: hsl(210, 46%, 95%);
+    }
+    #img2 {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        height: 260px;
+    }
+    #inf {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-left: -56px;
+        min-width: 440px;
+        max-width: 450px;
+        height: 260px;
+        background-color: white;
+    }
+    #titulo {
+        color: hsl(217, 19%, 35%);
+        font-size: 25px;
+        margin-top: 25px;
+        margin-left: 35px;
+        margin-right: 20px;
+    }
+    #paragrafo {
+        color: hsl(214, 17%, 51%);
+        font-size: 15px;
+        margin-left: 35px;
+        margin-right: 20px;
+    }
+    #nome {
+        width: 200px;
+        position: relative;
+        font-weight: 900;
+        color: hsl(217, 19%, 35%);
+        margin-top: -35px;
+        margin-left: 90px;
+        font-size: 15px;
+    }
+    #info {
+        width: 200px;
+        color: hsl(214, 17%, 51%);
+        margin-top: -13px;
+        margin-left: 90px;
+        font-size: 15px;
+    }
+    #avatar {
+        margin-left: 35px;
+        border-radius: 50px;
+        width: 40px;
+    }
+    
+    
+    #links {
+        display: none;
+        position: absolute;
+        border-radius: 10px;
+        /*40*/height: 50px;
+        /*150*/width: 250px;
+        margin-left: 260px;
+        margin-top: -130px;
+        background-color: hsl(217, 19%, 35%);
+    
+    }
+    #des {
+        color: hsl(210, 46%, 95%);
+        width: 80px;
+        font-size: 14px;
+        margin-top: 18px;
+        margin-left: 35px;
+    }
+    #um {
+        display: flex;
+        height: 20px;
+        width: 20px;
+        margin-top: -33px;
+        margin-left: 120px;
+        margin-right: 15px;
+    }
+    #dois {
+        height: 20px;
+        width: 20px;
+        margin-top: -20px;
+        margin-left: 160px;
+        margin-right: 15px;
+        display: flex;
+    }
+    #tres {
+        display: flex;
+        height: 20px;
+        width: 20px;
+        margin-top: -20px;
+        margin-left: 200px;
+        margin-right: 5px;
+    }
+    #dentroDoRedondo {
+        width: 17px;
+        height: 17px;
+        margin-top: 10px;
+    }
+    #redondo {
+        margin-top: -60px;
+        margin-left: 80%;
+        text-align: center;
+        border-radius: 50px;
+        width: 40px;
+        height: 40px;
+        background-color: hsl(210, 46%, 95%);
+    }
+    a {
+        cursor: pointer;
+      }
+}
+
+
+@media only screen and (max-device-width: 890px) {
+
+    body {
+        position: relative;
+        margin-left: 15%;
+        margin-right: 15%;
+        
+        
+        background-color:hsl(210, 46%, 95%);
+    }
+    #img {
+        margin: auto;
+        
+    }
+    #img2 {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        width: 95%;
+        height: 250px;
+    }
+    #inf {
+        position: absolute;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        min-height: 220px;
+        width: 95%;
+        margin-top: -45px;
+        background-color: white;
+    }
+    #titulo {
+        color:hsl(217, 19%, 35%);
+        text-align: justify;
+        margin-right: 50px;
+        margin-left: 35px;
+        font-size: 18px;
+        padding-top: 25px;
+    }
+    #paragrafo {
+        color: grey;
+        font-size: 16px;
+        margin-right: 40px;
+        margin-left: 35px;
+    }
+    #avatar {
+        margin-top: 15px;
+        margin-left: 35px;
+        height: 45px;
+        width: 45px;
+        border-radius: 50px;
+    }
+    #nome {
+        margin-top: -44px;
+        margin-left: 100px;
+    }
+    #info {
+
+        color: grey;
+        font-size: 16px;
+        margin-top: -11px;
+        margin-left: 100px;
+    }
+    #redondo {
+        z-index: 2;
+        position: absolute;
+        text-align: center;
+        margin-top: -55px;
+        height: 35px;
+        width: 35px;
+        border-radius: 50px;
+        background-color: hsl(210, 46%, 95%);
+        margin-left: 80%;
+    }
+    #dentroDoRedondo {
+        margin-top: 10px;
+    }
+    #links {
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        position: absolute;
+        z-index: 2;
+        margin: 5px;
+        margin-top: -70px;
+        background-color: hsl(217, 19%, 35%);
+        width: 98%;
+      
+        display: none;
+    }
+    #des {
+        padding-top: 15px;
+        margin-left: 15%;
+        margin-bottom: -20px;
+    }
+    #um {
+        padding-bottom: 20px;
+        margin-left: 40%;
+    }
+    #dois{
+        padding-bottom: 20px;
+        margin-left: 5%;
+    }
+    #tres{
+        padding-bottom: 20px;
+        margin-left: 5%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
