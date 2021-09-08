@@ -120,9 +120,8 @@
 @media only screen and (max-device-width: 890px) {
 
     body {
+        margin: auto;
         position: relative;
-        margin-right: 5px;
-        
         
         background-color:hsl(210, 46%, 95%);
     }
